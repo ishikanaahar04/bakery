@@ -1,0 +1,76 @@
+body{
+    background-color:#fceded
+}
+.menu-section {
+    padding: 40px;
+    text-align: center;
+    background-color: #f0d0cd;
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.menu-heading {
+    font-size: 2.5rem;
+    color: rgb(52, 81, 106); /* Dark red */
+    margin-bottom: 20px;
+}
+.menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.menu-item {
+    background-color: #f6f0f0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.item-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.item-name {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 15px 0;
+}
+  
+  /* Item Price */
+.item-price {
+    font-size: 1.2rem;
+    color: #555;
+}
+.header {
+    text-align: center;
+    margin-top: 50px;
+}
+.heading {  
+    color: darkred;
+    text-align: center;
+    line-height: -1;
+    
+}
+.tagline {
+    color: darkolivegreen;
+    font-size: 1rem;
+    font-style: italic;
+    text-align: center;
+    margin-top: 5px;
+    line-height: 1.2;
+}
+footer{
+    text-align: center;
+    
+    color: rgb(164, 101, 18);
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
